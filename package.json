@@ -1,0 +1,25 @@
+{
+  "name": "cfe-cli",
+  "version": "1.0.5",
+  "description": "脚手架生成工具",
+  "author": "cookie-8",
+  "repository": "git@github.com:cookie-8/cfe-cli.git",
+  "bin": {
+    "cfe-cli": "./bin/cli.js"
+  },
+  "main": "./bin/cli.js",
+  "scripts": {
+    "test": "node ./bin/cli.js"
+  },
+  
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^1.1.0",
+    "handlebars": "^4.1.2",
+    "inquirer": "^6.3.1",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.4.0"
+  }
+}
